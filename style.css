@@ -1,0 +1,72 @@
+/*html{
+    background: url("image/fond.jpg") repeat-x;
+    background:-webkit-gradient(linear, 0 350, 0 690, color-stop(0, rgb(48,105,170)), color-stop(100, rgb(213,225,238)));
+    background:-moz-linear-gradient(center top, rgb(48,105,170) 350px, rgb(213,225,238) 690px);
+    background:linear-gradient(center top, rgb(48,105,170) 350px, rgb(213,225,238) 690px); 
+    color:#454B53; font:normal 10px Arial, Helvetica, sans-serif; min-height:100%; 
+}*/
+
+html{
+	background-color: #312727;
+}
+
+body{    
+	background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    	left: 10%;
+	margin: 0px;
+	font-family: arial;
+	font-size: 18;
+ }   
+
+nav {
+	background-color: #006cff;
+	height: 35px;
+	padding-top: 5px;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #0F110D;
+	padding-left: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 16%;
+	text-align: center;
+	border-left: 1px solid white;
+	padding-top: 5px;
+	margin: 0px;
+	font-size: 16px;
+	height: 25px;
+}
+
+#velib {
+	border-left: none;
+	margin-left: 2%;
+}
+
+#main {
+	background-color: #312727;
+	padding-left: 0px;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+form
+{
+background-color : white;
+text-align: center;
+margin-left: 65%;
+}
