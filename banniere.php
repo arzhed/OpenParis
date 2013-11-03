@@ -1,3 +1,3 @@
 <div id="banniere">
-	<a href="home.php"><img id="entete" src="img/banniere.png"></a>
+	<a href="/OpenParis/home.php"><img id="entete" src="/OpenParis/img/banniere.png"></a>
 </div>
