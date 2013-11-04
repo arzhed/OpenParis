@@ -5,13 +5,10 @@
 	</head>
 
 	<body>
-		<?php include("../banniere.php"); ?>
-		<?php include("../menu.php");
-			print $_SERVER['DOCUMENT_ROOT'];
-		 ?>
+		<!--<?php include("../banniere.php"); ?>-->
+		<?php include("../menu.php");?>
 		<div id='main'>
-	 		<h1>17th district</h1>
-	 		<img src="../img/seventeenth.jpg">
+	 		<img src="../img/districts/17.png">
 		</div>
 	</body>
 </html>

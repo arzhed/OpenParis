@@ -7,10 +7,10 @@
     
 </head>
 <body>
-	<?php include("banniere.php"); ?>
+	<!--<?php include("banniere.php"); ?>-->
 	<?php include("menu.php"); ?>
 	<div id='main'>
-		<img id='map' src="img/map-site/parismap.png" usemap="#paris" style="visibility:visible">
+		<img id='map' src="img/map-site/parismap_smaller.png" usemap="#paris" style="visibility:visible">
  		<map name='paris'><!--
  			<area id='img1'shape='polygon' coords='' href='eighteenth.php'></area>
  			<area id='img2'shape='polygon' coords='' href='eighteenth.php'></area>
@@ -28,10 +28,10 @@
  			<area id='img14'shape='polygon' coords='' href='eighteenth.php'></area>
  			<area id='img15'shape='polygon' coords='' href='eighteenth.php'></area>
  			<area id='img16'shape='polygon' coords='' href='eighteenth.php'></area>-->
- 			<area id='img17'shape='polygon' coords='400,109,349,117,222,221,280,251,292,230,392,199' href='districts/seventeenth.php'></area>
- 			<area id='img18'shape='polygon' coords='402,108,552,103,561,128,528,189,440,202,395,187' href='districts/eighteenth.php'></area><!--
- 			<area id='img19'shape='polygon' coords='' href='eighteenth.php'></area>
- 			<area id='img20'shape='polygon' coords='' href='eighteenth.php'></area>-->
+ 			<area id='img17'shape='polygon' coords='219,153,349,43,399,36,392,129,276,171' href='districts/seventeenth.php'></area>
+ 			<area id='img18'shape='polygon' coords='400,37,399,125,531,118,554,36' href='districts/eighteenth.php'></area>
+ 			<area id='img19'shape='polygon' coords='564,33,643,38,662,126,696,152,580,179,537,122' href='nineteenth.php'></area>
+ 			<area id='img20'shape='polygon' coords='581,184,699,154,727,320,664,313' href='twentieth.php'></area>
  		</map>
 	</div>
 <script type="text/javascript" src="script/dynImg.js"></script>
