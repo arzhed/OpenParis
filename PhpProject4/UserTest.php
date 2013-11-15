@@ -13,15 +13,16 @@
  */
 class UserTest extends PHPUnit_Framework_TestCase {
     
+    
     public function setUp(){
         require_once 'User.php';
         require_once 'UserTemp.php';
         require_once 'UserArray.php';
         require_once 'ExceptionTest.php';
-        
+       
     }
      
-     
+     /*positive test */
         public function testResgisterP(){
         $userarray = new UserArray();
         $user = new User(125,"John","MacDonalds");
@@ -32,6 +33,7 @@ class UserTest extends PHPUnit_Framework_TestCase {
         
                 
     }
+    /*negative test*/
       public function testResgisterN(){
         $userarray = new UserArray();
         $user = new User("one hundred twenty five","John","MacDonalds");
@@ -41,6 +43,7 @@ class UserTest extends PHPUnit_Framework_TestCase {
     //put your code here
       }
       
+      /*exception test*/
       public function testResgisterE(){
         $userarray = new UserArray();
         try{
@@ -56,20 +59,21 @@ class UserTest extends PHPUnit_Framework_TestCase {
       }
       
       
-      
+      /*positive test*/
       public function testConnexionP(){
         $userarray = new UserArray();
         $user = new UserTemp("JC1992","NewYork234");
         $userarray::addList($user);
         $expected = "NewYork234";
-        $result = $userarray::searchUser("JC1992");
+        $result = $userarray::searchUser("JC1992","NewYork234");
         $this->assertEquals($expected,$result);
                 
         
         
                 
     }
-      public function testConnexionN(){
+    /*negative test*/  
+    public function testConnexionN(){
         $userarray = new UserArray();
         $user = new UserTemp(1992,"NewYork234");
         $userarray::addList($user);
@@ -89,7 +93,7 @@ class UserTest extends PHPUnit_Framework_TestCase {
         
     }   
     
-      
+      /*exception test*/
       public function testConnexionE(){
         $userarray = new UserArray();
         try{

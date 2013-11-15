@@ -18,4 +18,5 @@ class UserTemp {
          $this->login=$inputlogin;
          $this->password=$inputpassword;
      }
+     
 }

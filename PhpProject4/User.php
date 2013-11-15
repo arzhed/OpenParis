@@ -36,4 +36,12 @@ class User extends PHPUnit_Framework_TestCase {
         return $this->iduser;
     }
     
+    function getLastName()
+    {
+        return $this->lname;
+    }
+    function getFirstName()
+    {
+        return $this->fname;
+    }
 }
